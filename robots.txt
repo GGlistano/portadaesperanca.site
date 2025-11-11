@@ -1,0 +1,8 @@
+# Permite todos os bots visitarem
+# Mas bloqueia indexacao das paginas protegidas
+User-agent: *
+Disallow: /verificar-conta
+Disallow: /vslspoti
+
+# Permite a pagina de entrada ser indexada
+Allow: /entrada-spotify
